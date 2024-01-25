@@ -1,0 +1,80 @@
+div.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px !important;
+    min-width: 400px !important;
+    min-height: 500px !important;
+    max-height: 500px;
+    padding-bottom: 10px !important;
+    box-shadow: 0px 8.21px 41.052px -6.451px rgba(0, 0, 0, 0.08) !important;
+}
+
+div.card .success-msg {
+    color: var(--green);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+div.card .err-msg {
+    color: var(--orange-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+div.card .success-desc {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+}
+
+div.card .submit-btn {
+    height: 60px;
+    border-radius: 14px;
+    border: 1px solid #685edb !important;
+    color: #685edb;
+    background: unset !important;
+    position: relative;
+    bottom: unset;
+    left: unset;
+    width: calc(100% - 50px);
+    margin-top: 100px;
+}
+
+div.card .submit-btn span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-size: cover;
+        overflow: hidden !important;
+    }
+
+    .footer p:last-child {
+        margin-bottom: 0;
+    }
+
+    div.card {
+        max-width: unset !important;
+        min-width: unset !important;
+        min-height: unset !important;
+        max-height: unset !important;
+        margin-top: 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 32px !important;
+    }
+    body > div:nth-child(1) {
+        margin-top: 0 !important;
+    }
+    div.card .submit-btn {
+        margin-top: 60px !important;
+    }
+}
