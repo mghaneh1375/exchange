@@ -13,9 +13,9 @@
         <meta property="og:locale" content="fa_IR" />
         <meta property="og:type" content="website" />
         <link rel="apple-touch-icon" sizes="180x180" href="{{asset('assets/img/apple-touch-icon.png')}}">
-        <link rel="icon" type="image/png" sizes="32x32" href="href="{{asset('assets/img/favicon-32x32.png')}}"">
-        <link rel="icon" type="image/png" sizes="16x16" href="href="{{asset('assets/img/favicon-16x16.png')}}"">
-        <link rel="manifest" href="href="{{asset('assets/img/site.webmanifest')}}"">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/img/favicon-32x32.png')}}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/img/favicon-16x16.png')}}">
+        <link rel="manifest" href="{{asset('assets/img/site.webmanifest')}}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>TehranPage</title>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
