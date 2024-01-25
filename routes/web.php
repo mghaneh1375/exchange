@@ -25,11 +25,11 @@ Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.pos
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('dashboard', [AuthController::class, 'dashboard']);
 
-Route::get('/', [CurrencyController::class, 'home']);
+Route::get('/old-design', [CurrencyController::class, 'home']);
 
 Route::get('/price/get', [CurrencyController::class, 'getPrice'])->name('getPrice');
 
-Route::get('/new-design', [CurrencyController::class, 'home2'])->name('home2');
+Route::get('/', [CurrencyController::class, 'home2'])->name('home2');
 
 Route::get('/new-success/{request}', [RequestController::class, 'success'])->name('new-success');
 

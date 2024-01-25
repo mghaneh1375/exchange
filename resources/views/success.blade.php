@@ -6,7 +6,8 @@
         <link rel="stylesheet" href="{{ asset('assets/css/fontface.css') }}" />
         <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=1.9') }}" />
         <meta property="og:title" content="TehranPage" />
-        <meta property="og:image" content="https://echeck.ir/img/icon.png" />
+        <meta property="og:url" content="{{route('home2') . '/v=' . time()}}" />
+        <meta property="og:image" content="{{asset('assets/img/logo2.png')}}" />
         <meta property="og:locale" content="fa_IR" />
         <meta property="og:type" content="website" />
     </head>
